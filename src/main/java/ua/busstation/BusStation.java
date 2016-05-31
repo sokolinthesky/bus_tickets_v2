@@ -12,10 +12,10 @@ public class BusStation {
     private Date selectedDate;
     private static Map<Route, Date> routes = new HashMap<>();
 
-    public boolean checkTime(Date selecterDate) {
-        this.selectedDate = selecterDate;
+    public boolean checkTime(Date selectedDate) {
+        this.selectedDate = selectedDate;
 
-        if (selectedDate.after(new java.util.Date()) || selectedRoute.getDepartureTime().after(new java.util.Date())) {
+        if (this.selectedDate.after(new java.util.Date()) || selectedRoute.getDepartureTime().after(new java.util.Date())) {
             return true;
         } else {
             return false;

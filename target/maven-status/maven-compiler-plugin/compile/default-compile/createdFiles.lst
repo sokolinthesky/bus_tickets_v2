@@ -1,4 +1,6 @@
 ua\busstation\config\WebSecurityConfig.class
+ua\busstation\web\controllers\RegistrationController.class
+ua\busstation\core\user\UserAndUserRoleManager.class
 ua\busstation\dao\models\RouteModel.class
 ua\busstation\core\user\UserRole.class
 ua\busstation\core\bus\BusManager.class
@@ -21,4 +23,5 @@ ua\busstation\core\user\UserRolesRepository.class
 ua\busstation\dao\repository\RouteRepository.class
 ua\busstation\dao\models\BusModel.class
 ua\busstation\core\route\Route.class
+ua\busstation\core\user\UserAndUserRoleManagerImpl.class
 ua\busstation\dao\repository\BusRepository.class

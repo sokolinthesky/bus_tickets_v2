@@ -1,4 +1,5 @@
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\dao\convertors\BusConvertor.java
+C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\web\controllers\RegistrationController.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\user\UserRepository.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\user\UserRole.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\security\CustomUserDetailsService.java
@@ -9,17 +10,18 @@ C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\B
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\dao\repository\BusRepository.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\dao\repository\RouteRepository.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\user\UserRolesRepository.java
-C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\config\Application.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\user\User.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\dao\models\RouteModel.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\config\WebSecurityConfig.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\reckoning\Reckoning.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\Application.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\route\RouteManager.java
+C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\user\UserAndUserRoleManagerImpl.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\bus\Bus.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\bus\BusManager.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\route\Route.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\security\CustomUserDetails.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\web\controllers\RouteController.java
+C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\core\user\UserAndUserRoleManager.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\dao\models\BusModel.java
 C:\Users\sokol\Desktop\local-repository\busstation\src\main\java\ua\busstation\config\MvcConfig.java

@@ -13,6 +13,8 @@
 <body class="security-app">
 	<div class="details">
 		<h2>Online Bus Station</h2>
+		<a href="/regPage" class="button green small">Registration</a>
+
 	</div>
 <div align="center">
 	<form action="/login" method="post">

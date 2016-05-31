@@ -15,7 +15,7 @@
 
 <div align="center">
     <h1>
-        Hello <b><c:out value="${pageContext.request.remoteUser}"></c:out></b>
+        Hello <span style="font-weight: bold;"><c:out value="${pageContext.request.remoteUser}"></c:out></span>
     </h1>
 
     <form action="${pageContext.request.contextPath}/index/chooseBus" method="post">
