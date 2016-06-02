@@ -3,6 +3,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,13 +14,12 @@
 <body class="security-app">
 <div class="details">
     <h2>Online Bus Station</h2>
-
 </div>
 <div align="center">
 
         <div class="lc-block">
-            Registration done!
-            <a href="/index">Войти</a>
+            <spring:message code="reg.done"/>!
+            <a href="/index"><spring:message code="reg.signin"/></a>
             <form>
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
             </form>

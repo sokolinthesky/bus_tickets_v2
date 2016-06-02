@@ -13,7 +13,6 @@
 <body class="security-app">
 <div class="details">
     <h2>Online Bus Station</h2>
-    Change language: <a href="buses?mylocale=en">English </a> | <a href="buses?mylocale=uk">Ukrainian</a><br/><br/>
 </div>
 <div align="center">
     <form action="${pageContext.request.contextPath}/index/reckoning" method="post">

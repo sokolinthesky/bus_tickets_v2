@@ -13,7 +13,6 @@
 <body class="security-app">
 <div class="details">
     <h2>Online Bus Station</h2>
-    Change language: <a href="registration?mylocale=en">English </a> | <a href="registration?mylocale=uk">Ukrainian</a><br/><br/>
 </div>
 <div align="center">
     <div class="lc-block">

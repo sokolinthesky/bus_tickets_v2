@@ -1,6 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -14,13 +16,14 @@
 </div>
 <div align="center">
     <div class="lc-block">
-        Нет мест.
-        <a href="/chooseBus">Назад</a>
+        <spring:message code="error.noseats"/>.
+        <a href="/chooseBus"><spring:message code="error.back"/></a>
         <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
     </div>
     <form action="/logout" method="post">
-        <input type="submit" class="button red big" value="Sign Out"/> <input
+        <spring:message code="index.logout" var="valSubmitOut"></spring:message>
+        <input type="submit" class="button red big" value="${valSubmitOut}"/> <input
             type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
     </form>
 </div>

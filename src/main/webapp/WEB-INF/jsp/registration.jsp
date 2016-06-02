@@ -13,6 +13,7 @@
 <body class="security-app">
 <div class="details">
     <h2>Online Bus Station</h2>
+    Change language: <a href="regPage?mylocale=en">English </a> | <a href="regPage?mylocale=uk">Ukrainian</a><br/><br/>
 </div>
 <div align="center">
     <form action="/registration" method="post">
@@ -30,8 +31,9 @@
                 <input type="text" class="style-4" name="email"
                        placeholder="Email"/>
             </div>
+            <spring:message code="login.regsubmit" var="valSubmit"></spring:message>
             <div>
-                <input type="submit" value="Registration" class="button red small"/>
+                <input type="submit" value="${valSubmit}" class="button red small"/>
             </div>
             <c:if test="${param.error ne null}">
                 <div class="alert-danger">Invalid username and password.</div>

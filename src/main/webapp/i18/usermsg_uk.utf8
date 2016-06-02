@@ -7,3 +7,23 @@ buses.choosedDate=Вибрана дата
 buses.chooseBus=Виберіть номер автобуса
 buses.seats=Місця
 
+reckoning.ticket=Білет
+reckoning.busnumber=Номер автобуса
+reckoning.date=Дата
+reckoning.route=Напрямок
+reckoning.dept=Час відправлення
+reckoning.dest=Час прибуття
+reckoning.seat=Місце
+reckoning.price=Ціна
+
+login.submit=Війти
+login.regsubmit=Регістрація
+
+reg.done=Регістрація пройшла успішно
+reg.signin=Війти
+
+error.noseats=Немає місць
+error.back=Назад
+error.on=На цю
+error.nobuses=немає автобусів
+error.login=Цей логін все зайнятий

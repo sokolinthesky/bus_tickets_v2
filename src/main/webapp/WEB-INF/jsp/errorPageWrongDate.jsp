@@ -13,17 +13,17 @@
 <body class="security-app">
 <div class="details">
     <h2>Online Bus Station</h2>
-    Change language: <a href="index?mylocale=en">English </a> | <a href="index?mylocale=uk">Ukrainian</a><br/><br/>
 </div>
 <div align="center">
         <div class="lc-block">
-            На <strong>${date}</strong> нет автобусов.
-            <a href="/index">Назад</a>
+            <spring:message code="error.on"/> <strong>${date}</strong> <spring:message code="error.nobuses"/>.
+            <a href="/index"><spring:message code="error.back"/></a>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 
         </div>
     <form action="/logout" method="post">
-        <input type="submit" class="button red big" value="Sign Out"/> <input
+        <spring:message code="index.logout" var="valSubmitOut"></spring:message>
+        <input type="submit" class="button red big" value="${valSubmitOut}"/> <input
             type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
     </form>
 </div>
