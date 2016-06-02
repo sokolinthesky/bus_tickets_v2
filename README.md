@@ -14,7 +14,7 @@
         <ul>
             <li>Web MVC</li>
             <li>JPA</li>
-            <li>Security</li>
+            <li>Security
         </ul>
      </li>
         
