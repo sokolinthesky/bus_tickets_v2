@@ -16,6 +16,5 @@
             <li>JPA</li>
             <li>Security
         </ul>
-     </li>
         
  </ul>
