@@ -26,11 +26,10 @@ public class RegistrationController {
     public String registration(@RequestParam("username") String username, @RequestParam("password") String password,
                                @RequestParam("email") String email) {
 
-        /*this.id = new AtomicLong();
-        try {
-            long id = this.id.incrementAndGet();
+
+        if(this.manager.findByUserName(username) == null) {
+            System.out.println("IN IF");
             User user = new User();
-            user.setUserid(id);
             user.setUserName(username);
             user.setPassword(password);
             user.setEmail(email);
@@ -38,27 +37,14 @@ public class RegistrationController {
             this.manager.saveUser(user);
 
             UserRole userRole = new UserRole();
-            userRole.setUserid(id);
+            userRole.setUserid(this.manager.findByUserName(username).getUserid());
             userRole.setRole("ROLE_USER");
             this.manager.saveUserRole(userRole);
 
-        } catch (NullPointerException ex) {
-            ex.printStackTrace();
+            return "registrationDonePage";
+        } else {
+            return "errorRegistrationPage";
         }
-*/
-        User user = new User();
-        user.setUserName(username);
-        user.setPassword(password);
-        user.setEmail(email);
-        user.setEnabled(1);
-        this.manager.saveUser(user);
-
-        UserRole userRole = new UserRole();
-        userRole.setUserid(this.manager.findByUserName(username).getUserid());
-        userRole.setRole("ROLE_USER");
-        this.manager.saveUserRole(userRole);
-
-        return "registrationDonePage";
     }
 
 }

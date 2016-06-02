@@ -40,8 +40,9 @@
                 <div class="alert-normal">You have been logged out.</div>
             </c:if>
         </div>
-        <input type="hidden" name="${_csrf.parameterName}"
-               value="${_csrf.token}"/>
+        <form>
+            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+        </form>
     </form>
 </div>
 </body>

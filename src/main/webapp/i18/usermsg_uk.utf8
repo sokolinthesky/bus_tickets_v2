@@ -1,0 +1,9 @@
+index.chooseDate=Виберіть дату
+index.chooseRoute=Виберіть маршрут
+index.submit=відправити
+index.logout=Вихід
+
+buses.choosedDate=Вибрана дата
+buses.chooseBus=Виберіть номер автобуса
+buses.seats=Місця
+
