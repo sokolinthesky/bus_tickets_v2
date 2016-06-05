@@ -16,6 +16,7 @@ ua\busstation\core\bus\BusManagerImpl.class
 ua\busstation\dao\convertors\RouteConvertor.class
 ua\busstation\core\route\RouteManager.class
 ua\busstation\BusStation.class
+ua\busstation\web\controllers\UsersController.class
 ua\busstation\core\bus\Bus.class
 ua\busstation\core\route\RouteManagerImpl.class
 ua\busstation\core\user\UserRepository.class

@@ -5,6 +5,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+import java.util.List;
+
 @ComponentScan
 @Component
 @EnableTransactionManagement
@@ -29,4 +31,30 @@ public class UserAndUserRoleManagerImpl implements UserAndUserRoleManager {
     public User findByUserName(String username) {
         return this.userRepository.findByUserName(username);
     }
+
+    @Override
+    public List<User> findAll() {
+        return (List<User>) this.userRepository.findAll();
+    }
+
+    @Override
+    public void editUser(User user) {
+        this.userRepository.save(user);
+    }
+
+    @Override
+    public void removeUser(String id) {
+        List<UserRole> userRoleList = this.userRolesRepository.findRoleUseкByUserId(Long.parseLong(id));
+        for(UserRole userRole : userRoleList) {
+            this.userRolesRepository.delete(userRole);
+        }
+        this.userRepository.delete(Long.parseLong(id));
+    }
+
+    @Override
+    public User findUser(String id) {
+        return this.userRepository.findOne(Long.parseLong(id));
+    }
+
+
 }

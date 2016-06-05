@@ -20,6 +20,9 @@
 
         <div class="lc-block">
             <div>
+                <a href="/login"><spring:message code="error.back"/></a>
+            </div>
+            <div>
                 <input type="text" class="style-4" name="username"
                        placeholder="User Name"/>
             </div>

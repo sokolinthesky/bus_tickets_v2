@@ -2,6 +2,7 @@ index.chooseDate=Виберіть дату
 index.chooseRoute=Виберіть маршрут
 index.submit=відправити
 index.logout=Вихід
+index.users=Користувачi
 
 buses.choosedDate=Вибрана дата
 buses.chooseBus=Виберіть номер автобуса
@@ -27,3 +28,9 @@ error.back=Назад
 error.on=На цю
 error.nobuses=немає автобусів
 error.login=Цей логін все зайнятий
+
+users.name=Iм'я
+users.password=Пароль
+users.email=Iмейл
+users.edit=Редактувати
+users.delete=Вдалити
