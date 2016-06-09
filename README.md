@@ -7,6 +7,7 @@
  <li>Java 1.8</li>
  <li>Maven</li>
   <li>Tomcat 7</li>
+  <li>JSP</li>
    <li>MySQl</li>
     <li>Hibernate</li>
      <li>
